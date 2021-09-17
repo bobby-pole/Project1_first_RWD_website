@@ -1,0 +1,15 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 940px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
