@@ -7,8 +7,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1% 10%;
-  background-color: #4E4E4E;
+  padding: 10px 20px;
+  background-color: #4e4e4e;
 }
 
 .logo {
@@ -59,6 +59,7 @@
   width: 70%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: auto;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .p1 {
@@ -66,8 +67,8 @@
   font-weight: 700;
   font-size: 36px;
   color: white;
-  margin: 5%;
-  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+  margin: 5% 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 .p2 {
@@ -75,12 +76,12 @@
   font-weight: 700;
   font-size: 18px;
   color: white;
-  margin: 5%;
+  margin: 5% 0;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 .button1 {
-  border: 3px solid #FFFFFF;
+  border: 3px solid #ffffff;
   width: 25%;
   box-sizing: border-box;
   background-color: transparent;
@@ -88,11 +89,65 @@
   font-weight: 700;
   font-size: 18px;
   color: white;
-  margin: 5%;
-  transition: color 1s, background-color 1s;
+  margin: 5% 0;
+  transition: 1s;
 }
 
 .button1:hover {
   color: black;
   background-color: white;
+}
+
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+}
+
+.header1 {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
+  display: flex;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.emp-des {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.emp-des::first-line {
+  font-weight: 700;
+}
+
+.section3 {
+  background-color: #405d78;
+}
+
+.header2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.child {
+  background-color: #f1f1f1;
+  width: 25%;
+  margin: 10px;
 }
