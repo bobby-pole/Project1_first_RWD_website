@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
     <title>Moja firma</title>
   </head>
@@ -19,67 +20,65 @@
     <nav class="navbar">
       <a class="logo" href="index.html">moja firma</a>
       <ul class="links-list">
-        <li class="link"><a href="#">o nas</a></li>
-        <li class="link"><a href="#">oferta</a></li>
-        <li class="link-disabled"><a href="#">kontakt</a></li>
+        <li class="link"><a href="#about">o nas</a></li>
+        <li class="link"><a href="#offer">oferta</a></li>
+        <li class="link"><a href="#" class="disabled">kontakt</a></li>
       </ul>
     </nav>
-    <section class="section1">
+    <section class="section1 section_pad">
       <div class="block1">
         <p class="p1">Nasza firma oferuje najwyższej jakości produkty.</p>
         <p class="p2">Nie wierz nam na słowo - sprawdź</p>
-        <button class="button1">oferta</button>
+        <button class="button1"><a href="#oferta">oferta</a></button>
       </div>
     </section>
-    <section class="section2">
+    <section id="about" class="section2 section_pad">
       <h1 class="header1">Nasi specjaliści</h1>
-      <div class="emp">
-        <img
-          src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-          class="emp-img"
-          alt="Adam Nowak"
-        />
-        <div class="emp-des">
-          Adam Nowak [Key Account Manager]
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi
-            assumenda incidunt corporis hic optio quae rem architecto porro!
-            Nisi aperiam laborum minima illum voluptate et magni repudiandae
-            molestiae blanditiis vel numquam excepturi, officia expedita dolorem
-            corporis? Veniam similique odio sint rerum molestias rem quisquam
-            cumque ipsum.
-          </p>
+      <div class="employers">
+        <div class="emp">
+          <div class="emp-img1"></div>
+          <div class="emp-des">
+            <h2 class="header2">Adam Nowak [Key Account Manager]</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              assumenda incidunt corporis hic optio quae rem architecto porro!
+              Nisi aperiam laborum minima illum voluptate et magni repudiandae
+              molestiae blanditiis vel numquam excepturi, officia expedita
+              dolorem corporis? Veniam similique odio sint rerum molestias rem
+              quisquam cumque ipsum.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="emp">
-        <img
-          src="https://images.unsplash.com/photo-1543132220-3ec99c6094dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80"
-          class="emp-img"
-          alt="Jan Kowalski"
-        />
-        <div class="emp-des">
-          Jan Kowalski [Sales Representative]
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
-            dolor corporis id natus? Necessitatibus, consectetur perspiciatis
-            nihil quidem sequi doloribus cumque eum autem sapiente iusto aperiam
-            esse similique atque tempora, enim dolores quae consequuntur maiores
-            impedit tenetur veritatis architecto. Praesentium adipisci, cum
-            sapiente laborum aspernatur harum?
-          </p>
+        <div class="emp">
+          <div class="emp-img2"></div>
+          <div class="emp-des">
+          <h2 class="header2">Jan Kowalski [Sales Representative]<h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Inventore dolor corporis id natus? Necessitatibus, consectetur
+              perspiciatis nihil quidem sequi doloribus cumque eum autem
+              sapiente iusto aperiam esse similique atque tempora, enim dolores
+              quae consequuntur maiores impedit tenetur veritatis architecto.
+              Praesentium adipisci, cum sapiente laborum aspernatur harum?</p>
+          </div>
         </div>
       </div>
     </section>
-    <section class="section3">
-      <header class="header2">Czym zajmuje się nasza firma?</header>
+    <section id="offer" class="section3 section_pad">
+      <h1 class="header3">Czym zajmuje się nasza firma?</h1>
       <div class="parent">
-        <div class="child">Usługa 1</div>
-        <div class="child">Usługa 2</div>
-        <div class="child">Usługa 3</div>
-        <div class="child">Usługa 4</div>
-        <div class="child">Usługa 5</div>
-        <div class="child">Usługa 6</div>
+        <div class="child"><div class="dot"></div><p>Usługa 1</p><p class="new-txt">(nowość)</p></div>
+        <div class="child"><p>Usługa 2</p></div>
+        <div class="child"><p>Usługa 3</p></div>
+        <div class="child"><p>Usługa 4</p></div>
+        <div class="child"><p>Usługa 5</p></div>
+        <div class="child"><p>Usługa 6</p></div>
       </div>
     </section>
+    <footer class="foot">
+      <h1 class="footer-txt">Nazwa firmy - wszelkie prawa zastrzeżone, 2019</h1>
+      <ul class="foot-icons">
+      <il><i class="fab fa-instagram"></i></il>
+      <il><i class="fab fa-facebook-square"></i></div></il>
+    </footer>
   </body>
 </html>
