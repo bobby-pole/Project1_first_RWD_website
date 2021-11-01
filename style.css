@@ -450,8 +450,18 @@ body {
   list-style: none;
   display: flex;
   font-size: 40px;
-  margin-right: 70px;
+  margin-right: 20px;
   color: #ffffff;
+}
+
+@media screen and (min-width: 441px) {
+  .foot-icons {
+    list-style: none;
+    display: flex;
+    font-size: 40px;
+    margin-right: 70px;
+    color: #ffffff;
+  }
 }
 
 .foot-ic {
