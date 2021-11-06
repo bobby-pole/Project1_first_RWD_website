@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,28 +16,32 @@
   </head>
   <body>
     <nav class="navbar">
-      <a class="logo" href="index.html">moja firma</a>
-      <div id="bars"><i class="fas fa-bars"></i></div>
-      <ul class="links-list">
-        <li class="link"><a href="#about">o nas</a></li>
-        <li class="link"><a href="#offer">oferta</a></li>
-        <li class="link"><a href="#" class="disabled">kontakt</a></li>
-      </ul>
+        <a class="logo" href="index.html">moja firma</a>
+        <ul class="links-list">
+          <li class="link"><a href="#about">o nas</a></li>
+          <li class="link"><a href="#offer">oferta</a></li>
+          <li class="link"><a href="#" class="disabled">kontakt</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
     </nav>
-      <section class="section1 section_pad">
+      <section class="section1">
         <div class="container">
-          <div class="block1">
+          <div class="overlay">
             <p class="p1">Nasza firma oferuje najwyższej jakości produkty.</p>
             <p class="p2">Nie wierz nam na słowo - sprawdź</p>
-          <button class="button1"><a href="#offer">oferta</a></button>
+            <button class="button1"><a href="#offer">oferta</a></button>
           </div>
-        </div>
+        </div> 
       </section>
-    <section id="about" class="section2 section_pad">
+    <section id="about" class="section2">
       <div class="container">
         <h1 class="header1">Nasi specjaliści</h1>
-        <div class="employers">
-          <div class="emp">
+        <ul class="employers">
+          <li class="employer">
             <div class="emp-img1"></div>
             <div class="emp-des">
               <h2 class="header2">Adam Nowak [Key Account Manager]</h2>
@@ -50,41 +53,43 @@
                 dolorem corporis? Veniam similique odio sint rerum molestias rem
                 quisquam cumque ipsum.
               </p>
-            </div>
-          </div>
-          <div class="emp">
+          </li>
+          <li class="employer">
             <div class="emp-img2"></div>
             <div class="emp-des">
-            <h2 class="header2">Jan Kowalski [Sales Representative]<h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              <h2 class="header2">Jan Kowalski [Sales Representative]</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Inventore dolor corporis id natus? Necessitatibus, consectetur
                 perspiciatis nihil quidem sequi doloribus cumque eum autem
                 sapiente iusto aperiam esse similique atque tempora, enim dolores
                 quae consequuntur maiores impedit tenetur veritatis architecto.
-                Praesentium adipisci, cum sapiente laborum aspernatur harum?</p>
+                Praesentium adipisci, cum sapiente laborum aspernatur harum?
+              </p>
             </div>
-          </div>
-        </div>
-     </div>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section id="offer" class="section3 section_pad">
+    <section id="offer" class="section3">
       <div class="container">
         <h1 class="header3">Czym zajmuje się nasza firma?</h1>
         <div class="parent">
-          <div class="child"><div class="dot"></div><p>Usługa 1</p><p class="new-txt">(nowość)</p></div>
-          <div class="child"><p>Usługa 2</p></div>
-          <div class="child"><p>Usługa 3</p></div>
-          <div class="child"><p>Usługa 4</p></div>
-          <div class="child"><p>Usługa 5</p></div>
-          <div class="child"><p>Usługa 6</p></div>
+          <div class="child"><div class="dot"></div><p class="child-content">Usługa 1</p><p class="new-txt">(nowość)</p></div>
+          <div class="child"><p class="child-content">Usługa 2</p></div>
+          <div class="child"><p class="child-content">Usługa 3</p></div>
+          <div class="child"><p class="child-content">Usługa 4</p></div>
+          <div class="child"><p class="child-content">Usługa 5</p></div>
+          <div class="child"><p class="child-content">Usługa 6</p></div>
         </div>
       </div>
     </section>
     <footer class="foot">
-      <h1 class="footer-txt">Nazwa firmy - wszelkie prawa zastrzeżone, 2019</h1>
-      <ul class="foot-icons">
-        <li class="foot-ic"><i class="fab fa-instagram"></i></li>
-        <li class="foot-ic"><i class="fab fa-facebook-square"></i></div></li>
+        <h1 class="footer-txt">Nazwa firmy - wszelkie prawa zastrzeżone, 2019</h1>
+        <ul class="foot-icons">
+          <li class="foot-ic"><a><i class="fab fa-instagram"></i></a></li>
+          <li class="foot-ic"><a><i class="fab fa-facebook-square"></a></i></div></li>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
