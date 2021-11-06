@@ -30,6 +30,8 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
