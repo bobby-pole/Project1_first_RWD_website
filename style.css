@@ -319,7 +319,14 @@ body {
   margin-left: 10px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
+  .navbar {
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    height: 7vh;
+  }
+
   .links-list {
     display: flex;
     flex-direction: row;
